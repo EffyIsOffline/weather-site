@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Weather</title>
+</head>
+<body>
+    <div id="test">
+    <div id="card">
+        <a href="/index.html"><img src="img/logo.png" width="400px" id="logo"></a>
+        <div class="radar">
+            <a href="/radar.html" style="text-decoration:none">Satellite Imagery</a>
+        </div>
+        <div class="search">
+            <input type="text" placeholder="Enter Location Here" spellcheck="false">
+            <button><img src="img/search.png" alt="search icon"></button>
+        </div>
+        <div class="error">
+            <p>Invalid City Name</p>
+        </div>
+        <div class="weather">
+            <h2 class="city">Winchester</h2>
+            <img src="img/clear.png" alt="" class="weather-icon">
+            <h4 class="desc">foggy</h4>
+            <div class="details">
+                <div class="column">
+                    <div>
+            <h1 class="temp">14°F</h1>
+        </div>
+        </div>
+        <div class="column">
+            <div>
+            <p>Feels Like</p><p class="feels_like">20°F</p>
+        </div>
+        </div>
+        </div>
+            <div class="details">
+                <div class="column">
+                    <div>
+                        <p class="humidity">50%</p>
+                        <p>Humidity</p>
+                    </div>
+                </div>
+                <div class="column">
+                    <div>
+                        <p class="wind">15mph</p>
+                        <p>Wind Speed</p>
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+        <br><br><br>
+        <h3>If you keep getting an error message, try typing in JUST the city name!</h3>
+        <h3>Made by <a href="https://github.com/EffyIsOffline">Effy Axehead</a>, weather data sourced from Open Weather Map</h3>
+    </div>
+    </div>
+    <div class="audio-player">
+    <audio controls autoplay hidden loop>
+        <source src="weather.mp3" type="audio/mpeg">
+      Your browser does not support the audio element.
+      </audio> 
+      </div>
+    <script src="script.js"></script>
+</body>
+</html>
