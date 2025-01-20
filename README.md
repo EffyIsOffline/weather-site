@@ -25,6 +25,8 @@ This is my first public GitHub project :3 If there's anything I could do differe
 
 - Minor fixes with graphics in Satellite Imagery.
 
+- Optimization for mobile
+
 
 ## Feedback
 
